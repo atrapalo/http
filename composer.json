@@ -1,0 +1,20 @@
+{
+    "name": "atrapalo/http",
+    "description": "The HTTP class is a class with static methods for doing miscellaneous HTTP related stuff like date formatting, language negotiation or HTTP redirection.",
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "DT",
+            "email": "dt@atrapalo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "": ["src/"]
+        }
+    }
+}
